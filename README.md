@@ -1,4 +1,4 @@
-# smolLM: A Lightweight Language Model Implementation
+# SmolLM: A Lightweight Language Model Implementation
 
 This repository contains a lightweight implementation of a causal language model, **smolLM**, using PyTorch. The model is designed to mimic the architecture of modern transformer-based models, including features like rotary embeddings, multi-head attention, and RMS normalization.
 
