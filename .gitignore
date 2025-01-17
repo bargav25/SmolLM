@@ -1,0 +1,60 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+env/
+venv/
+.virtualenv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore model weights and large files
+*.pt
+*.pth
+
+# Ignore Hugging Face model cache
+huggingface_cache/
+transformers_cache/
+.cache/
+
+# Ignore Git LFS large files directory (optional, if applicable)
+.lfs/
+
+# Ignore Python packaging files
+*.egg-info/
+build/
+dist/
+*.egg
+*.whl
+
+# Ignore IDE-specific files and folders
+.idea/
+.vscode/
+*.iml
+
+# Ignore user-specific settings
+.env
+*.env
+
+# Ignore downloaded repositories
+C4AI_SMOLLM135/
+
+# Ignore test outputs
+test_results/
+
+# Ignore coverage and profiling data
+coverage/
+*.coverage
+*.prof
